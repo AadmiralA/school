@@ -1,0 +1,377 @@
+/**{
+  box-sizing: border-box;
+}*/
+body {
+  margin:0px;
+}
+nav {
+  background-color: #000;
+}
+.headerBack {
+  margin:0px;
+  padding:0px;
+}
+.headerBack td{
+    margin:0px;
+  padding:0px;
+}
+.header {
+  width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.logo {
+	float: left;
+  font-size: 24px;
+  font-family: sans-serif;
+  margin-top:21px;
+  margin-bottom: 21px; 
+}
+
+.navig {
+	text-align: right;
+	font-size: 18px;
+	display: inline;
+  float: right;
+    margin:24px 0px;
+}
+.navig a:hover {
+  font-size: 20px;
+  color: #000;
+  text-decoration: underline;
+          transition:  0.3s;
+}
+.navig a{
+ text-decoration: none;
+ color: #808080;
+ font-family: sans-serif;
+}
+.navig li {
+  display: inline;
+	float: left;
+  padding-right: 60px;
+}
+
+.banner img{
+  margin-bottom: 20px;
+  width: 100%;    
+}
+
+
+
+.main {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news {
+ font-family: sans-serif;
+}
+
+.prefieNews {
+  font-size: 42px;
+  text-align: center;
+  color: #333333;
+  margin-top: 150px;
+}
+
+.follow{
+  text-align: center;
+  font-size: 21px;
+  font-family:  sans-serif;
+  color: #696969;
+}
+
+.news-foto {
+ /* float: right;
+  display: inline;*/
+}
+.news .news-foto div{
+  background-color: #F0FFF0;
+}
+.sleepAtLessons {
+  /*padding: 16px;*/
+  margin-bottom: 70px;
+  height: 280px;
+  /*box-shadow: inset -250px 0px 0px 0px red;*/
+   border: 1px solid #808080;
+   width: 30%;
+   float: left;
+   margin-right: 20px;
+   margin-left: 40px;
+   transition: 0.5s;
+}
+.sleepAtLessons:hover {
+  margin-bottom: 70px;
+  height: 280px;
+   border: 1px solid #808080;
+   width: 30%;
+   float: left;
+   margin-right: 20px;
+   margin-left: 40px;
+   box-shadow:7px 7px 6px 1px #424242;
+}
+.sleepAtLessons-text{
+text-align: center; 
+}
+.sleepAtLessons-text p{
+ margin-top: 6%;
+ font-size: 16px;
+ color: #333333;
+}
+.sleepAtLessons-text h3 {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 21px;
+  color: #222222;
+}
+/*
+.sleepAtLessons a {
+  text-decoration: none;
+  margin-right: 163px;
+  font-size: 26px;
+  border: 9px solid #00614A;
+  border-right: 50px solid #00614A;
+  border-left: 50px solid #00614A;
+  border-radius: 7px;
+  background-color: #00614A;
+  color: #ffffff;
+}
+*/
+
+.nineClass {
+  margin-bottom: 70px;
+  height: 280px;
+  border: 1px solid #808080;
+  width: 30%;
+  float: left;
+  margin-right: 20px;
+  transition: 0.5s;
+}
+.nineClass:hover{
+     box-shadow:7px 7px 6px 1px #424242;
+}
+.COVID-19_text,
+.nineClass-text{
+text-align: center;
+}
+.COVID-19 h3,
+.nineClass h3{
+  font-size: 21px;
+  font-style: italic;
+  margin-top: 21px;
+  color: #222222;
+}
+
+.nineClass p{
+ margin-top: 6%;
+ margin-bottom: 14.6%;
+ font-size: 16px;
+ color: #333333;
+}
+.sleepAtLessons a,
+.COVID-19 a,
+.nineClass a {
+  text-decoration: none;
+  font-size: 26px;
+  border: 9px solid #00614A;
+  border-right: 50px solid #00614A;
+  border-left: 50px solid #00614A;
+  border-radius: 7px;
+  background-color: #00614A;
+  color: #ffffff;
+      transition:  0.3s ease-out;
+}
+.sleepAtLessons a:hover,
+.COVID-19 a:hover,
+.nineClass a:hover {
+  text-decoration: none;
+  font-size: 26px;
+  border: 9px solid #B22222;
+  border-right: 50px solid #B22222;
+  border-left: 50px solid #B22222;
+  border-radius: 7px;
+  background-color: #B22222;
+  color: #000;
+}
+.COVID-19 {
+    margin-bottom: 70px;
+  height: 280px;
+     border: 1px solid #808080;
+     width: 30%;
+     float: left;
+     transition: 0.5s;
+}
+.COVID-19:hover{
+     box-shadow:7px 7px 6px 1px #424242;
+}
+.COVID-19 p {
+   margin-top: 6%;
+   margin-bottom: 14%;
+ font-size: 16px;
+ color: #333333;
+}
+.COVID-19 h3 {
+  margin-bottom: 17px;
+}
+.end-news {
+    margin-bottom: 250px;
+}
+.end-news p{
+  font-size: 28px;
+  font-family: calibri;
+  text-align: center;
+      background-color: #fff;
+}
+.end-news a{
+    text-decoration: none;
+  font-size: 26px;
+  border: 11px solid #00614A;
+  border-right: 55px solid #00614A;
+  border-left: 55px solid #00614A;
+  border-radius: 11px;
+  background-color: #00614A;
+  color: #ffffff;
+    transition:  0.3s ease-out;
+}
+.end-news a:hover {
+    text-decoration: none;
+  font-size: 26px;
+  border: 11px solid #B22222;
+  border-right: 55px solid #B22222;
+  border-left: 55px solid #B22222;
+  border-radius: 11px;
+  background-color: #B22222;
+  color: #000;
+}
+
+.prefie{
+  font-size: 42px;
+  color: #333;
+  text-align: center;
+}
+.prefie strong{
+  font-family: sans-serif;
+}
+.prefie p {
+  font-size: 21px;
+  color: #696969;
+}
+
+.col-lg-2 {
+  width: 50%;
+  float:left;
+  margin:11px 0px 70px 0px;
+  padding: 0px;
+  }
+.gallery-foto {
+  padding:50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 240px;
+      margin:10px;
+        transition:  0.25s ease-out;
+}
+.g1 {
+      background-image:url(img/1.JPG);
+}
+.g2 {
+       background-image:url(img/2.JPG);
+}
+.gallery-foto p{
+  color: #000;
+  font-size: 20px;
+  line-height: 1;
+  text-align: center;
+  font-family: Consolas;
+  font-weight: 800;
+}
+.gallery-foto:hover{
+  padding:50px;
+    background-repeat: no-repeat; 
+        background-position: center center;
+  margin:10px;
+        cursor: pointer;
+        filter:grayscale(60%);
+}
+.checkFoto{
+  text-align: center;
+  margin-bottom: 250px;
+  font-family: calibri; 
+}
+.checkFoto a{
+   text-decoration: none;
+  font-size: 26px;
+  border: 11px solid #00614A;
+  border-right: 55px solid #00614A;
+  border-left: 55px solid #00614A;
+  border-radius: 11px;
+  background-color: #00614A;
+  color: #ffffff;
+    transition:  0.3s ease-out;
+}
+.checkFoto a:hover{
+  text-decoration: none;
+  font-size: 26px;
+  border: 11px solid #B22222;
+  border-right: 55px solid #B22222;
+  border-left: 55px solid #B22222;
+  border-radius: 11px;
+  background-color: #B22222;
+  color: #000;
+}
+
+.firstBoy {
+  width: 23%;
+  float: left;
+  margin-right: 17px;
+  margin-left: 18px;
+  margin-bottom: 150px;
+}
+.firstBoy img{
+  width: 100%;
+}
+.firstGirl {
+  width: 23%;
+  float: left;
+    margin-right: 17px;
+      margin-bottom: 150px;
+}
+.firstGirl img{
+  width: 100%;
+}
+.secondBoy {
+  width: 23%;
+  float: left;
+    margin-right: 17px;
+      margin-bottom: 150px;
+}
+.secondBoy img{
+  width: 100%;
+}
+.secondGirl {
+  width: 20%;
+  float: left;
+    margin-right: 17px;
+      margin-bottom: 150px;
+}
+.secondGirl img{
+  width: 100%;
+}
+.proudText p{
+  font-size: 20px;
+  color: #696969;
+}
+.proudText h3{
+  font-size: 23px;
+  color: #333;
+}
+.email {
+  text-decoration: underline;
+  color: green;
+  font-size: 19.5px;
+}
+.end p{
+  font-size: 18px;
+}

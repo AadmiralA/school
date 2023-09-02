@@ -1,0 +1,143 @@
+body {
+  margin:0px;
+}
+nav {
+  background-color: #000;
+}
+.headerBack {
+  margin:0px;
+  padding:0px;
+}
+.headerBack td{
+    margin:0px;
+  padding:0px;
+}
+.header {
+  width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.logo {
+	float: left;
+  font-size: 24px;
+  font-family: sans-serif;
+  margin-top:21px;
+  margin-bottom: 21px; 
+}
+
+.navig {
+	text-align: right;
+	font-size: 18px;
+	display: inline;
+  float: right;
+    margin:24px 0px;
+}
+.navig a:hover {
+  font-size: 20px;
+  color: #000;
+  text-decoration: underline;
+          transition:  0.3s;
+}
+.navig a{
+ text-decoration: none;
+ color: #808080;
+ font-family: sans-serif;
+}
+.navig li {
+  display: inline;
+	float: left;
+  padding-right: 60px;
+}
+
+.banner img{
+  margin-bottom: 20px;
+  width: 100%;    
+}
+
+
+
+.main {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prefie{
+  font-size: 42px;
+  color: #333;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 150px;
+}
+.prefie p {
+  font-size: 21px;
+  color: #696969;
+}
+
+.col-lg-2 {
+  width: 32%;
+  float:left;
+  margin-right:13px;
+  padding: 0px;
+  }
+.gallery-foto {
+  padding:0px;
+    background-repeat: no-repeat;
+   background-position: center center;
+    min-height: 500px;
+    max-height: 500px;
+      margin:3px;
+        transition:  0.25s ease-out;
+        margin-bottom: 16px;
+}
+.g1 {
+      background-image:url(galeryimg/1.jpg);
+      transition: 0.7s;
+}
+.g1:hover,.g2:hover,.g3:hover,.g4:hover,.g5:hover,.g6:hover,.g7:hover,.g8:hover,
+.g9:hover{
+      border-radius: 90%;
+}
+.g2 {
+       background-image:url(galeryimg/2.jpg);
+       transition: 0.7s;
+}
+.g3 {
+      background-image:url(galeryimg/3.jpg);
+      transition: 0.7s;
+}
+.g4 {
+       background-image:url(galeryimg/4.jpg);
+       transition: 0.7s;
+}
+.g5 {
+      background-image:url(galeryimg/5.jpg);
+      transition: 0.7s;
+}
+.g6 {
+       background-image:url(galeryimg/6.jpg);
+       transition: 0.7s;
+}
+.g7 {
+      background-image:url(galeryimg/7.jpg);
+      transition: 0.7s;
+             margin-bottom: 150px;
+}
+.g8 {
+       background-image:url(galeryimg/8.jpg);
+       transition: 0.7s;
+              margin-bottom: 150px;
+}
+.g9 {
+       background-image:url(galeryimg/9.jpg);
+       transition: 0.7s;
+       margin-bottom: 150px;
+}
+.gallery-foto p{
+  color: #000;
+  font-size: 20px;
+  line-height: 1;
+  text-align: center;
+  font-family: Consolas;
+  font-weight: 800;
+}
